@@ -1,20 +1,24 @@
 # create-qti12
 *Creates a QTI 1.2 from plain text file*
 
-The tools here allow creation of a QTI 1.2 formatted .zip file (suitable for import into an LMS).
+The Python scripts provided here allow creation of a QTI 1.2 formatted .zip file (suitable for import into an LMS) and Word files for paper-based assessment.
 
 * `create-qti.py` generates QTI .zip
 * `create-quiz.py` generates a .docx Word file in the form of a paper-based quiz
 * `create-key.py` generates a .docx Word file with the answers provided
 
-INPUT:
-The scripts above expect input files to be named with Unit, Chapter, Lesson numbers followed by a hyphen then the name of the lesson.
-Example: `1.1.1 - NAME OF QUIZ.txt`    or    `6.2.4 - QUIZ NAME.txt`
+## INPUT FILE NAMING CONVENTION  
 
-Questions should be numbered with a PERIOD after each question number. Question number order does not matter and duplicates are allowed. New question numbers will be assigned in the generated artifacts.
+The scripts above expect input files to be named with Unit, Chapter, Lesson numbers followed by a hyphen then the name of the lesson.
+
+Example: `1.1.1 - NAME OF QUIZ.txt`    or    `6.2.4 - QUIZ NAME.txt`
 
 --------------------------
 # Question Format
+
+Questions should be numbered with a PERIOD `.` after each question number.  
+
+Question number order does not matter and duplicates are allowed. New question numbers will be assigned in the generated artifacts.
 
 ## EXAMPLE FORMAT:
 
