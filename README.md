@@ -23,7 +23,7 @@ Question number order does not matter and duplicates are allowed. New question n
 ## EXAMPLE FORMAT:
 
 ```
-1. The capitol of the United States is:
+1. The capital of the United States is:
 a) Baltimore
 b) New York City
 *c) Washington DC
